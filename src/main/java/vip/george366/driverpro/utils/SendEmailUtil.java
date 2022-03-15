@@ -37,7 +37,7 @@ public class SendEmailUtil {
         //设置邮件的主题
         message.setSubject("DriverPro网盘验证码");
         //设置发件人
-        message.setFrom("864658405@qq.com");
+        message.setFrom("1815550182@qq.com");
         //设置接受者(可变长度参数，多个字符串)
         message.setTo(receiver);
         //设置邮件发送日期
@@ -58,7 +58,7 @@ public class SendEmailUtil {
         try {
             message.setSubject("来自 [DriverPro] 的信息");
             MimeMessageHelper messageHelper = new MimeMessageHelper(message,true,"utf-8");
-            messageHelper.setFrom("864658405@qq.com");
+            messageHelper.setFrom("1815550182@qq.com");
             messageHelper.setTo(receiver);
             messageHelper.setSentDate(new Date());
             // 设置邮件的正文, 参数true 代表发送html格式
