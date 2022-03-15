@@ -72,12 +72,22 @@
         </dependency>
 
 <!--        swagger3.0-->
-        <dependency>
+        <!--<dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-boot-starter</artifactId>
             <version>3.0.0</version>
+        </dependency>-->
+<!--        knife4j  2.x，它自动的包含了springfox2.0-->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+            <version>2.0.9</version>
         </dependency>
+
+
+
     </dependencies>
+
 
     <build>
         <plugins>
